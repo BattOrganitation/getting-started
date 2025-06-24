@@ -1,0 +1,8 @@
+name: "Koog Agent Action"
+description: "Esegue un agente Koog personalizzato"
+runs:
+  using: "java"
+  main: "build/libs/app-all.jar"
+branding:
+  icon: "zap"
+  color: "gray-dark"
